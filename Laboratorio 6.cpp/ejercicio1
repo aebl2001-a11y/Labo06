@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int limite;
+    cout << "Ingrese limite: ";
+    cin >> limite;
+
+    cout << "Los multiplos de 5 som:" << endl;
+    for (int i = 5; i <= limite; i += 5) {
+        cout << i << endl;
+    }
+
+    return 0;
+}

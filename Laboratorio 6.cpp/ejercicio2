@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int inicio;
+    cout << "Ingrese el numero de inicio: ";
+    cin >> inicio;
+
+    cout << "CUENTA REGRESIVA:" << endl;
+    for (int i = inicio; i >= 0; i--) {
+        cout << i << endl;
+    }
+
+    return 0;
+}
